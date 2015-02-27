@@ -16,7 +16,7 @@ anymore.
 
     fsufitch@awesome:~$ git gud
     You are now so gud!
-    fsufitch@boring:~$ git rekt
+    fsufitch@awesome:~$ git rekt
     You got #rekt!
 
 Your life has officially been improved 100%.
