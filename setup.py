@@ -1,13 +1,13 @@
 from setuptools import setup, Extension, find_packages
 
 setup(name='gitgud',
-      version='0.1',
+      version='1.1',
       author='Filip Sufitchi',
       author_email="fsufitchi@gmail.com",
       description="Git Gud - a utility for when you are told to 'get good'",
       url="https://github.com/fsufitch/git-gud",
-      packages=find_packages('src'),
       package_dir={'':'src'},
+      packages=['gitgud'],
       entry_points = {
           "console_scripts": [
               "git-gud=gitgud.gitgud:git.gud",

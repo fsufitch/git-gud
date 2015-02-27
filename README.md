@@ -11,6 +11,10 @@ error when you try?
     fsufitch@boring:~$ git rekt
     git: 'rekt' is not a git command. See 'git --help'.
 
+You don't have to suffer anymore!
+
+    $ pip install gitgud
+
 This package adds functionality to git so these commands do not fail
 anymore.
 
