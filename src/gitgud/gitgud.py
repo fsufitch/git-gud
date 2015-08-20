@@ -38,3 +38,15 @@ class git(object):
         if sup:
             text = git.fig(text)
         print(text)
+
+    @staticmethod
+    def job():
+        args = git.parse_args("job")
+        name = args.name or "You"
+        sup = args.super
+        text = "{name} got a job in gitting #rekt!".format(name=name)
+        
+        if sup:
+            text = git.fig(text)
+        print(text)
+                                                            
