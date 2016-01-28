@@ -11,8 +11,9 @@ setup(name='gitgud',
       entry_points = {
           "console_scripts": [
               "git-gud=gitgud.gitgud:git.gud",
+              "git-job=gitgud.gitgud:git.job",
               "git-rekt=gitgud.gitgud:git.rekt",
-              "git-job=gitgud.gitgud:git.job"
+              "git-spooked=gitgud.gitgud:git.spooked",
               ],
         },
 

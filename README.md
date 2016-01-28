@@ -3,15 +3,17 @@ git gud m8!
 
 > alternatively, git #rekt, git job
 
-Ever been told to "git gud", "git rekt", or "git job" but you only ever get an
-error when you try?
+Ever been told to "git gud", "git rekt", "git job", or even "git spooked" but
+you only ever get an error when you try?
 
     fsufitch@boring:~$ git gud
     git: 'gud' is not a git command. See 'git --help'.
-    fsufitch@boring:~$ git rekt
-    git: 'rekt' is not a git command. See 'git --help'.
     fsufitch@boring:~$ git job
     git: 'job' is not a git command. See 'git --help'.
+    fsufitch@boring:~$ git rekt
+    git: 'rekt' is not a git command. See 'git --help'.
+    fsufitch@boring:~$ git spooked
+    git: 'spooked' is not a git command. See 'git --help'.
 
 You don't have to suffer anymore!
 
