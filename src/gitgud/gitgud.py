@@ -40,6 +40,17 @@ class git(object):
         print(text)
 
     @staticmethod
+    def spooked():
+        args = git.parse_args("spooked")
+        name = args.name or "You"
+        sup = args.super
+        text = "{name} got spooked by a scary skeleton!".format(name=name)
+
+        if sup:
+            text = git.fig(text)
+        print(text)
+
+    @staticmethod
     def job():
         args = git.parse_args("job")
         name = args.name or "You"
