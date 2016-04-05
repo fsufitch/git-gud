@@ -14,6 +14,7 @@ setup(name='gitgud',
               "git-job=gitgud.gitgud:git.job",
               "git-rekt=gitgud.gitgud:git.rekt",
               "git-spooked=gitgud.gitgud:git.spooked",
+              "git-money=gitgud.gitgud:git.money",
               ],
         },
 
