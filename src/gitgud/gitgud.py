@@ -60,4 +60,15 @@ class git(object):
         if sup:
             text = git.fig(text)
         print(text)
+    
+    @staticmethod
+    def money():
+        args = git.parse_args("money")
+        name = args.name or "You"
+        sup = args.super
+        text = "{name} got money!".format(name=name)
+        
+        if sup:
+            text = git.fig(text)
+        print(text)
                                                             
